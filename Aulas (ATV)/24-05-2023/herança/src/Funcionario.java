@@ -1,11 +1,11 @@
 import javax.swing.JOptionPane;
 public class Funcionario {
-    private String nome;
-    private String cpf;
-    private double salario;
+    protected String nome;
+    protected String cpf;
+    protected double salario;
     public Funcionario() {
-        this.nome = JOptionPane.showInputDialog("Nome: ");
-        this.cpf = JOptionPane.showInputDialog("CPF: ");
+        this.nome = JOptionPane.showInputDialog(null, "Nome: ");
+        this.cpf = JOptionPane.showInputDialog(null, "CPF: ");
         this.salario = Double.parseDouble(JOptionPane.showInputDialog("Salário: "));
     }
     public String getNome() {
