@@ -2,7 +2,7 @@
 public class Gerente extends Funcionario {
 	//private int senha = Integer.parseInt(JOptionPane.showInputDialog("Digite a senha:"));
 	//private int numeroDeFuncionariosGerenciados;
-	public Gerente(String nome, String cpf, double Salario){
+	public Gerente(){
 	}
 	public double getBonificacao() {
 		return this.salario * 0.15;
