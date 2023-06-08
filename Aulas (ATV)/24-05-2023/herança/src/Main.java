@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 	public class Main {
-    public static void main(String[] args) {		
+    public static void main(String[] args) {
 		Object [] itens = {"Funcionário", "Gerente"};
 	    Object selectedValue = JOptionPane.showInputDialog(null, "Você é um funcionário normal ou um gerente?","Selecione a função", 
         JOptionPane.INFORMATION_MESSAGE, null, itens, itens [1]);
