@@ -1,11 +1,10 @@
 import javax.swing.JOptionPane;
-import java.util.Scanner;
 public class ProvaOficial {
     public static void main(String[] args) {
-        Object [] itens = {1, 2};
+        Object [] itens = {"1", "2"};
 	Object selectedValue = JOptionPane.showInputDialog(null, "Escolha 1 para cadastrar ou 2 para listar os eventos","Eventos", 
                 JOptionPane.INFORMATION_MESSAGE, null, itens, itens [1]);
-        if(itens == 1){
+        if(selectedValue == "1"){
         String titulo = JOptionPane.showInputDialog("Qual o titulo do evento?");
         String duracao = JOptionPane.showInputDialog("Qual a duração do evento?");
         String inicio = JOptionPane.showInputDialog("Qual a data de inicio do evento?");
