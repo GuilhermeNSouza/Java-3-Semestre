@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-public class CarroEMotoJoption {
+public class MainVeiculo {
     public static void main(String[] args) {
         Object [] itens = {"Carro", "Moto"};
 	    Object selectedValue = JOptionPane.showInputDialog(null, "Qual o seu veículo?","Escolha:", 
